@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
-import Blog from './Blog';
+import Blog from './blog';
 
 function App() {
   const [count, setCount] = useState(0)
