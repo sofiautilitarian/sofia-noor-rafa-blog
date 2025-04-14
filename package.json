@@ -3,10 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://sofiautilitarian.github.io/sofia-noor-rafa-blog/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
@@ -21,7 +23,5 @@
     "gh-pages": "^6.3.0",
     "typescript": "^4.9.3",
     "vite": "^4.0.0"
-  },
-  "homepage": "https://sofiautilitarian.github.io/sofia-noor-rafa-blog/"
-
+  }
 }
