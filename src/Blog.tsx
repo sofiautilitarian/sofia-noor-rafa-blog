@@ -1,5 +1,5 @@
 import React from "react";
-import Content from "./content";
+import Content from "./Content";
 
 const Blog = () => {
   return (
@@ -38,4 +38,4 @@ const Blog = () => {
   );
 };
 
-export default Blog
+export default Blog;
